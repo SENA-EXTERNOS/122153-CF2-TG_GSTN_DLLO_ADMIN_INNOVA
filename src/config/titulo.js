@@ -1,2 +1,2 @@
 module.exports =
-  'Componente Formativo con un nombre extremadamente largo y extenso'
+  'Normatividad, formalización de empresa, documentos e informes contables'

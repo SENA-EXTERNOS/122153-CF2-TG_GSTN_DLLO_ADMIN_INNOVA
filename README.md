@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.3.1**
+# **Normatividad, formalización de empresa, documentos e informes contables -- sena-base-2021 v6.3.1**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://github.com/SENA-EXTERNOS/122153-CF2-TG_GSTN_DLLO_ADMIN_INNOVA](https://github.com/SENA-EXTERNOS/122153-CF2-TG_GSTN_DLLO_ADMIN_INNOVA)
 
 #
 

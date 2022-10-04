@@ -1,19 +1,27 @@
 export default {
   global: {
     componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+      'Normatividad, formalización de empresa, documentos e informes contables',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+      'Para entender un informe contable, es importante reconocer a la empresa como esa unidad organizada donde se realizan operaciones que son registradas y soportadas con base en una normatividad vigente y que acepta generar informes para sus usuarios, exponiendo las ganancias o pérdidas, lo que permite el acceso a la toma de decisiones financieras a corto, mediano o largo plazo.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/img-intro.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/img-fondo.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/img-f1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/img-f2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/img-f3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/img-f4.svg'),
       },
     ],
   },
@@ -40,122 +48,20 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
+            titulo: ' La contabilidad y su clasificación',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
+            titulo: ' La empresa en Colombia',
+            hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Audio',
-            hash: 'audio',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Dialogo ingles',
-            hash: 'actividad_dialogo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.19',
-            titulo: 'Modal',
-            hash: 'modal',
+            titulo: 'La información contable',
+            hash: 't_1_3',
           },
         ],
       },
@@ -163,44 +69,26 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Documentos y libros contables',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Infografía Animada',
+            titulo: 'Documentos contables',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Video Motion',
+            titulo: 'Libros contables',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Motion + Presentador',
+            titulo: 'Títulos valores',
             hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Animación 2D',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
           },
         ],
       },
@@ -208,47 +96,44 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Proceso administrativo',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
             titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
+              'Principios básicos de áreas funcionales, planeación estratégica, organización, dirección y control',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
+            titulo: 'Archivo y conservación de documentos',
             hash: 't_3_2',
           },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Clasificación de los hilos',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Clasificación de tejidos',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
-          },
         ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Hechos contables – transacciones de las empresas',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Obligaciones tributarias de las empresas',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Informes contables y estados financieros',
+        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -293,132 +178,183 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Decreto 2420 de 2015. (Presidencia de la República). Por medio de la cual se expide el Decreto Único Reglamentario de las Normas de Contabilidad, de Información Financiera y de Aseguramiento de la Información y se dictan otras disposiciones. Diciembre 14 de 2015.',
+    },
+    {
+      referencia: 'Economipedia. (s.f.). <em>Software de contabilidad.</em>',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://economipedia.com/definiciones/software-de-contabilidad.html#:~:text=Un%20software%20de%20contabilidad%20es,una%20empresa%20o%20entidades%20similares.',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Hernández, S. J. (2011). <em>Introducción a la administración</em> (5.a ed., Vol. 1). McGraw-Hill Interamericana.',
+    },
+    {
+      referencia:
+        'Ley 590 de 2000. Por la cual se dictan disposiciones para promover el desarrollo de las micro, pequeñas y medianas empresa. Julio 10 de 2000. DO. No. 44.078',
+    },
+    {
+      referencia:
+        'Secretaría Senado. (1971).<em> Código de Comercio Decreto 410 de 1971.</em>',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'http://www.secretariasenado.gov.co/senado/basedoc/decreto_2650_2008.html',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Sistema de Información sobre Comercio Exterior. (s.f.).<em> Comisión de la Comunidad Andina.</em> Decisión 486: Régimen Común sobre Propiedad Industrial. SICE OAS.',
+      link: 'http://www.sice.oas.org/trade/junac/decisiones/dec486s6.asp',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Uribe Medina, L. R. (2016). <em>Plan de cuentas para sistemas contables.</em>',
+      link: 'https://docplayer.es/33172203-Luis-raul-uribe-medina.html',
+    },
+    {
+      referencia:
+        'Zapata, P. (2018).<em> Contabilidad General.</em> (8ª Ed.). Alfaomega.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.alphaeditorialcloud.com/reader/contabilidad-general?location=22',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Comerciante',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'persona que ejerce alguna de las actividades que se consideran mercantiles.',
     },
     {
-      termino: '<em>Suftware</em>',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+      termino: 'Costo histórico',
+      significado: 'es el valor de la transacción de una operación.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Contribuyente',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'se refiere a toda persona natural o jurídica llamada para cumplir ciertas obligaciones tributarias, por la realización del hecho generador establecido en la ley para el nacimiento del tributo.',
     },
     {
-      termino: '<em>Áectores</em>',
-      significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+      termino: 'Debe',
+      significado: 'registra el valor monetario al lado izquierdo.',
     },
     {
-      termino: 'Moda',
+      termino: 'Declarante',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'persona natural o jurídica que presenta una declaración tributaria.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Empresa',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'ente económico dedicado a la compra y venta de bienes, conocidos como mercancías.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Estado de resultados',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'estado financiero compuesto por las cuentas de ingresos, gastos y costos, los cuales reflejan el resultado del ejercicio.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Estado de situación financiera',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'estado integrado por los elementos de activo, pasivo y patrimonio.',
     },
     {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+      termino: 'Haber',
+      significado: 'corresponde al registro del precio al lado derecho.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Hecho generador',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'es el evento o suceso, expresamente definido en la ley, por el cual se origina la obligación tributaria.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Impuesto',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'es el tributo que establece la ley a favor del sujeto activo, y a cargo de los sujetos a quienes se les atribuya la realización del hecho imponible de la obligación tributaria.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Normas básicas',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'conceptos básicos y reglas que se deben observar al efectuar los registros contables correspondientes a las actividades que desarrollan las personas jurídicas o naturales, y que deben aplicar todas las personas obligadas a llevar contabilidad.',
+    },
+    {
+      termino: 'Nota débito',
+      significado:
+        'comprobante que emiten las empresas, para cargar a la cuenta de los clientes, valores como intereses por financiación, por sobregiros, el gravamen a movimientos financieros (GMF), venta de chequeras, comisiones, y otros cobros',
+    },
+    {
+      termino: 'Partida doble',
+      significado:
+        'es la igualdad de los registros del debe y el haber en el asiento contable, presentando un equilibrio.',
+    },
+    {
+      termino: 'Patrimonio',
+      significado: 'es la diferencia presentada entre activo y pasivo.',
+    },
+    {
+      termino: 'Políticas contables',
+      significado:
+        'son las bases, reglas y procedimientos aplicables por una empresa, para presentar los estados financieros.',
+    },
+    {
+      termino: 'Razón comercial',
+      significado:
+        'es el nombre que se asigna a la empresa, para darse a conocer ante el público o mercado.',
+    },
+    {
+      termino: 'Razón social',
+      significado:
+        'es el nombre de la empresa, que se encuentra registrado en la cámara de comercio y demás entidades de control.',
+    },
+    {
+      termino: 'Registro Único Tributario (RUT)',
+      significado:
+        'es el documento que se tramita ente la Dirección de Impuestos y Aduanas Nacionales (DIAN), el cual relaciona la clasificación y responsabilidades del contribuyente.',
+    },
+    {
+      termino: 'Sujeto activo',
+      significado:
+        'es el Estado como acreedor de la prestación pecuniaria que se deriva de la realización del hecho generador del tributo.',
+    },
+    {
+      termino: 'Sujeto pasivo',
+      significado:
+        'es aquél a quien se le atribuye la realización del hecho impositivo de la obligación tributaria.',
+    },
+    {
+      termino: 'Tarifa',
+      significado:
+        'es la unidad de medida o porcentaje que se aplica a la base gravable para determinar la cuantía del tributo.',
     },
   ],
   complementario: [
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'La información contable',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'IFRS Foundation. (s.f.). Norma Internacional de Contabilidad 8. Políticas Contables, Cambios en las Estimaciones Contables y Errores. https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534369239-2962',
+      tipo: 'PDF',
+      link:
+        'https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534369239-2962',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Documentos contables',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'DIAN. (s.f.). Documento soporte en adquisicioens efectuadas a sujetos no obligados a expedir factura de venta o documento equivalente. https://www.dian.gov.co/impuestos/Documents/Documento_soporte_en_adquisiciones_efectuadas.pdf',
+      tipo: 'PDF',
+      link:
+        'https://www.dian.gov.co/impuestos/Documents/Documento_soporte_en_adquisiciones_efectuadas.pdf',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Documentos contables',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
+        'Resolución 0167 de 2021. (DIAN). Por la cual se implementa y desarrolla en el sistema de facturación electrónica la funcionalidad del documento soporte en adquisiciones efectuadas a sujetos no obligados a expedir factura de venta o documento equivalente, para su transmisión electrónica y se expide el anexo técnico del documento. Diciembre 30 de 2021. https://www.dian.gov.co/normatividad/Normatividad/Resoluci%C3%B3n%20000167%20de%2030-12-2021.pdf',
+      tipo: 'PDF',
+      link:
+        'https://www.dian.gov.co/normatividad/Normatividad/Resoluci%C3%B3n%20000167%20de%2030-12-2021.pdf',
+    },
+    {
+      tema: 'Archivo y conservación de documentos',
+      referencia:
+        'PROING – SA OFICIAL. (2017). Organización y archivo de documentos – Gestión documental (video). YouTube. https://www.youtube.com/watch?v=DGRZsfzGE9Y',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=DGRZsfzGE9Y',
     },
   ],
   creditos: {
