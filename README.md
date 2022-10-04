@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://github.com/SENA-EXTERNOS/122153-CF2-TG_GSTN_DLLO_ADMIN_INNOVA](https://github.com/SENA-EXTERNOS/122153-CF2-TG_GSTN_DLLO_ADMIN_INNOVA)
+[https://sena-externos.github.io/122153-CF2-TG_GSTN_DLLO_ADMIN_INNOVA/](https://sena-externos.github.io/122153-CF2-TG_GSTN_DLLO_ADMIN_INNOVA/)
 
 #
 
