@@ -11,7 +11,7 @@
     .row.justify-content-between
       .col-md-6.col-lg-4
           figure.mb-5
-            img(src='@/assets/curso/temas/tema5/img-1-.svg')
+            img(src='@/assets/curso/temas/tema5/img-1.png')
 
       .col-md-6.col-lg-8
         p.mb-5 Una obligación tributaria es aquella que parte de las necesidades del Estado para que todos contribuyan con el gasto público. El incumplimiento de este tipo de obligaciones acarrea sanciones como multas o suspensión de operaciones.

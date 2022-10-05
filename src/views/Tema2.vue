@@ -10,7 +10,7 @@
 
     .row.justify-content-between
       .col-md-6.col-lg-4
-        .imagen-titulo--izq.color-acento-botones.mb-3
+
           figure
             img(src='@/assets/curso/temas/tema2/img-1.svg')
 
@@ -190,9 +190,9 @@
 
     .row.justify-content-between
       .col-md-6.col-lg-4
-        .imagen-titulo--izq.color-secundario.mb-5
+
           figure
-            img(src='@/assets/curso/temas/tema2/img-6.svg')
+            img(src='@/assets/curso/temas/tema2/img-6.png')
 
       .col-md-6.col-lg-8
         p.mb-5 Según el Código de Comercio: “Todo comerciante conformará su contabilidad, libros, registros contables, inventarios y estados financieros en general, a las disposiciones de este Código y demás normas sobre la materia” (Código de Comercio, Art. 48).
@@ -218,9 +218,9 @@
     .row.justify-content-center.mb-5
 
       .col-md-6.col-lg.mb-5.mb-lg-0
-        .tarjeta-avatar
+        .tarjeta-avatar.f-w
           img.mb-5.img-100(src='@/assets/curso/temas/tema2/img-7.svg' alt='AvatarTop')
-          .tarjeta.color-acento-botones.fnd-2
+          .tarjeta.color-acento-botones.fnd-2.full-w
             br
             .p-4.px-5
               p.text-black.text-center Libro de actas de asamblea y junta de socios. 

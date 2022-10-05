@@ -12,7 +12,7 @@
       .col-md-6.col-lg-4
 
           figure.mb-5
-            img(src='@/assets/curso/temas/tema6/img-1-.svg')
+            img(src='@/assets/curso/temas/tema6/img-1.png')
 
       .col-md-6.col-lg-8
         p.mb-3 Un estado financiero es una declaración de lo que se cree que es cierto, expresado en términos de una unidad monetaria; por ejemplo, en pesos. Cuando los administradores preparan estados financieros, están describiendo, en términos financieros, ciertos atributos de las empresas que están representando, de una manera razonable.
@@ -118,19 +118,19 @@ export default {
         titulo: '¿Qué es un <em>software</em> contable?',
         texto:
           'Un <em>software</em> de contabilidad es un programa o aplicación informática que trata los datos contables de una empresa, mediante métodos sistemáticos (economipedia). En Colombia existen varios, pero el más reconocido es SIIGO. <br><br>Este <em>software</em> contable permite que la información sea registrada de manera inmediata y tiene un alto nivel de confiabilidad en el riesgo de pérdida de información; muchos usuarios comentan aspectos positivos del mismo, indicando la simplicidad y facilidad de gestionar las tareas contables.',
-        imagen: require('@/assets/curso/temas/tema6/img-2-.svg'),
+        imagen: require('@/assets/curso/temas/tema6/img-2.png'),
       },
       {
         titulo: '¿Cómo se ingresa información al <em>software?</em>',
         texto:
           'Cada <em>software</em> maneja su propia plataforma o interfaz y, aunque pueden semejarse una de la otra, es necesario contar con una capacitación completa por parte del prestador del servicio, a los colaboradores que harán uso de este. <br><br> Para que el ingreso de la información se registre de manera adecuada, se debe tener presente:<br><br><ul class="lista-ul--color nar"><li><i class="fas fa-check"></i>Una correcta clasificación de los hechos contables.</li><li><i class="fas fa-check"></i>Una revisión de las cuentas que integran el sistema contable.</li><li><i class="fas fa-check"></i>Cómo es su organización y su estructura.</li>',
-        imagen: require('@/assets/curso/temas/tema6/img-3-.svg'),
+        imagen: require('@/assets/curso/temas/tema6/img-3.png'),
       },
       {
         titulo: '¿Cómo se realiza la generación de reportes?',
         texto:
           'Posterior a que la organización haya registrado las diferentes transacciones o hechos económicos en los libros, de acuerdo con el periodo contable, se procede a la generación de reportes.<br><br>Estos reportes son el resultado final de los hechos económicos de la organización, aquellos que sirven para determinar la utilidad o pérdida de la misma y, al mismo tiempo, tomar decisiones de mejora o de oportunidad.<br><br>Los reportes permiten conocer el estado real de la organización y son imprescindibles para la toma de decisiones (estado de situación financiera, estado de resultados, estado de pérdidas y ganancias, entre otros).',
-        imagen: require('@/assets/curso/temas/tema6/img-4-.svg'),
+        imagen: require('@/assets/curso/temas/tema6/img-4.png'),
       },
     ],
   }),

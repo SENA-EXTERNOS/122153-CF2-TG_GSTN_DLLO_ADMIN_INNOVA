@@ -10,9 +10,9 @@
 
     .row.justify-content-between
       .col-md-6.col-lg-4
-        .imagen-titulo--izq.color-acento-botones.mb-3
-          figure
-            img(src='@/assets/curso/temas/tema4/img-1.svg')
+        
+          figure.mb-3
+            img(src='@/assets/curso/temas/tema4/img-1.png')
 
       .col-md-6.col-lg-8
         p.mb-5 Son ocasionados por el giro ordinario de las actividades que la empresa realiza, como compra y venta de bienes o servicios. Estos hechos económicos deben desarrollarse en concordancia con las cualidades de información financiera y se les denominan transacciones, donde la veracidad de la información debe ser evidente.
@@ -78,7 +78,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
               figure
-                img.img-400(src='@/assets/curso/temas/tema4/img-5-.svg')
+                img.img-400(src='@/assets/curso/temas/tema4/img-5.png')
                      
           .col-md-6.mb-4.mb-md-0
            
@@ -88,7 +88,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
               figure
-                img.img-400(src='@/assets/curso/temas/tema4/img-6-.svg')
+                img.img-400(src='@/assets/curso/temas/tema4/img-6.png')
 
           .col-md-6
             p Bajar o retirar, hace referencia a la eliminación total o parcial de alguno de los registros, por situaciones como pérdida de derechos adquiridos (venta de un activo), o pago de una deuda con proveedor (eliminación del pasivo).
@@ -97,7 +97,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
               figure
-                img.img-400(src='@/assets/curso/temas/tema4/img-7-.svg')        
+                img.img-400(src='@/assets/curso/temas/tema4/img-7.png')        
           .col-md-6.mb-4.mb-md-0
             p Hace referencia al proceso mediante el cual se le asigna un valor monetario a la transacción económica; este proceso se lleva a cabo en dos momentos diferentes, en el reconocimiento inicial y en la medición posterior.
         
@@ -107,7 +107,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
               figure
-                img.img-400(src='@/assets/curso/temas/tema4/img-8-.svg')           
+                img.img-400(src='@/assets/curso/temas/tema4/img-8.png')           
           .col-md-6
             p Se refiere a las reglas o parámetros con los que se elaboran los estatutos financieros, para que cuando alguien los lea, identifique cuál fue la base para elaborar los estados financieros; las políticas, lo que hacen es contextualizar cómo y bajo qué metodología, se prepararon los estados financieros.   
 

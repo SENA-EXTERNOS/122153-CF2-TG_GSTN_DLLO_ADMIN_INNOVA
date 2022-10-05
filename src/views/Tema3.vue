@@ -24,9 +24,9 @@
 
     .row.justify-content-between
       .col-md-6.col-lg-4
-        .imagen-titulo--izq.color-acento-botones
+        
           figure
-            img(src='@/assets/curso/temas/tema3/img-2.svg')
+            img(src='@/assets/curso/temas/tema3/img-2.png')
 
       .col-md-6.col-lg-8
         p.mb-5 La administración como palabra, viene del latín ad, que indica dirección, tendencia, proximidad, contacto, y minister, subordinación u obediencia y, en su sentido más amplio y completo, significa cumplimiento de una tarea o función bajo la directriz o mando de otro. Sin embargo, en la historia, este concepto sufrió una transformación significativa, que trascendió el hacer por el interpretar los objetivos trazados por una organización y transformarlos en acción a través de la planeación, la organización, la dirección y el control, todo con el objetivo de alcanzar los propósitos de manera adecuada y asertiva. Es allí donde surgen los diferentes caminos que han tomado algunos autores para definir el concepto de administración y su impacto en los escenarios de las organizaciones.
@@ -53,9 +53,9 @@
             p Se diseña con base en los planes tácticos y se desarrolla por los estamentos operativos de la organización.     
 
       .col-md-6.col-lg-4
-        .imagen-titulo--der.color-secundario.mb-5
-          figure
-            img(src='@/assets/curso/temas/tema3/img-3.svg')
+        
+          figure.mb-5
+            img(src='@/assets/curso/temas/tema3/img-3.png')
 
     ul.lista-ul--color.mor
       li 
@@ -215,10 +215,14 @@
             ol.lista-ul--color.nar
               li 
                 i.fas.fa-check
-                | Alfanuméricos: como su nombre lo detalla la serie se ordena con números y letras.Ejemplo: 078-Juan Cruz.
+                p.mb-0 
+                  b Alfanumérico: 
+                  | como su nombre lo detalla la serie se ordena con números y letras.Ejemplo: 078-Juan Cruz.
               li 
                 i.fas.fa-check
-                | Cronológicos: son empleados para series documentales que son numéricas y a la vez cronológicas. Ejemplo: Resolución 010 2022-07-07.
+                p.mb-0 
+                  b Cronológicos: 
+                  | son empleados para series documentales que son numéricas y a la vez cronológicas. Ejemplo: Resolución 010 2022-07-07.
 
       .col-lg-3.mb-4.mb-lg-0.p-5
         figure

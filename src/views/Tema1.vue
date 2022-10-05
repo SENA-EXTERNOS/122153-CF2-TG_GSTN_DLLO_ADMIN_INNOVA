@@ -10,9 +10,9 @@
 
     .row.justify-content-between.mb-5
       .col-md-6.col-lg-4
-        .imagen-titulo--izq.color-acento-botones.mb-3
+
           figure
-            img(src='@/assets/curso/temas/tema1/img-1.svg')
+            img(src='@/assets/curso/temas/tema1/img-1.png')
 
       .col-md-6.col-lg-8
         p.mb-5 Para obtener la facultad de poder hablar sobre contabilidad, es necesario reconocer que, como individuos, siempre hemos tenido la necesidad de guardar memoria y dejar constancia escrita de los movimientos económicos realizados porque, de no hacerlo, podríamos olvidarlos.
@@ -70,9 +70,9 @@
 
 
       .col-md-6.col-lg-4
-        .imagen-titulo--der.color-secundario    
+  
           figure
-            img(src='@/assets/curso/temas/tema1/img-2.svg')
+            img(src='@/assets/curso/temas/tema1/img-2.png')
 
     ul.lista-ul--color.mor
       li 
@@ -84,28 +84,28 @@
     p.mb-5 Existen muchos tipos de información contable pero, en este apartado, se mencionan los principales.
 
     .row.mb-5.justify-content-center 
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+      .col-lx-4.col-md-8.mb-4.col-lg-4
         .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
+            .tarjeta-slide__contenido.p-5.p-xl-5
               h1 Contabilidad financiera
               p Es una rama de la contabilidad en la que se describen tanto las obligaciones de la entidad o individuo, como los recursos financieros de los mismos y se crea esta rama bajo la figura de persona jurídica.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-3-.svg')})`}")
+            .tarjeta-slide__img.b-img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-3-.png')})`}")
 
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+      .col-lx-4.mb-4.col-md-8.col-lg-4
         .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-4-.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
+            .tarjeta-slide__img.b-img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-4-.png')})`}")
+            .tarjeta-slide__contenido.p-5.p-xl-5
               h1 Contabilidad gerencial
               p Esta rama se enfoca más en la interpretación de la información contable, en aras de tomar decisiones propias del negocio, como metas y finalidades, buscando siempre maximizar sus recursos y generar una mayor rentabilidad.
 
-      .col-sm-6.col-xl-4.mb-4.mb-sm-0
+      .col-lx-4.mb-4.col-md-8.col-lg-4
         .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-5-.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
+            .tarjeta-slide__img.b-img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-5-.png')})`}")
+            .tarjeta-slide__contenido.p-5.p-xl-5
               h1 Contabilidad tributaria
               p Son aquellas herramientas que permiten plasmar, de manera anticipada, los recursos requeridos (financieros y no financieros) para el cumplimiento de las actividades; por consiguiente, de las estrategias y de los objetivos.
 
@@ -124,9 +124,8 @@
 
     .row.justify-content-between.mb-5
       .col-md-6.col-lg-4
-        .imagen-titulo--izq.color-primario.mb-3
           figure
-            img(src='@/assets/curso/temas/tema1/img-7.svg')
+            img(src='@/assets/curso/temas/tema1/img-7.png')
 
       .col-md-6.col-lg-8
         p.mb-5 Se puede definir una empresa como el individuo o grupo de personas con ideales similares, que buscan un beneficio en común y deciden organizarse legalmente para prestar un servicio o realizar alguna actividad que la ley considere mercantil. En Colombia, puede darse la opción de variedad de empresas que se dedican a atender las mismas, o diferentes tipos de solicitudes.
@@ -447,9 +446,9 @@
 
     .row.justify-content-between.mb-5
       .col-md-6.col-lg-4
-        .imagen-titulo--izq.color-acento-botones.mb-3.mb-3
+
           figure
-            img(src='@/assets/curso/temas/tema1/img-19.svg')
+            img(src='@/assets/curso/temas/tema1/img-19.png')
 
       .col-md-6.col-lg-8
         p.mb-3 Teniendo en cuenta que la información contable satisface la necesidad de interés público y, en particular, de sus propietarios, se puede decir que los usuarios son todas aquellas personas que requieren de una información financiera comprensible, confiable y pertinente, que sirva de apoyo para la toma de decisiones y, a su vez, les permita tener mejores prácticas y una evolución a nivel internacional, de sus negocios.
