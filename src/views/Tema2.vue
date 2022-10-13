@@ -22,7 +22,21 @@
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Documentos contables 
 
-    p.mb-3 La planeación puede tener varias perspectivas pero, en síntesis, obedece al rumbo hacia el que se dirige algo, bien sea a nivel empresarial o incluso, en la vida personal; es el horizonte proyectado y, para ilustrar un poco mejor el concepto, podría pensarse en los siguientes cuestionamientos:<span class='lila text-black'> ¿qué se quiere? ¿Quiénes somos? ¿Para dónde vamos?</span> La planeación impulsa para optimizar recursos, prever situaciones, reducir costos e incrementar la productividad, a partir de la concentración y canalización de esfuerzos por un mismo fin, además de ser un escenario base para una posterior evaluación y retroalimentación del proceso y de los logros obtenidos.
+    p.mb-3 Facilitan que, de manera cronológica y organizada, se proporcione una información de los movimientos de la empresa. 
+    .row.justify-content-center.mb-5
+      .col-md-9.col-lg-10
+        .bloque-texto-e.p-4
+          .bloque-texto-e__texto
+            i.fas.fa-quote-left
+            p.text-regular Teniendo en cuenta los requisitos legales que sean aplicables, según el tipo de acto que se trate, los hechos económicos deben documentarse mediante soportes de orígenes internos o externos, debidamente fechados y autorizados por quienes intervengan en ellos o los elaboren.
+
+            i.fas.fa-quote-right
+          .row.align-items-end
+            .col
+              .bloque-texto-e__autor 
+                p.text-black.mb-0 Anexo 6 del DUR 2420 de 2015 Normas sobre el sistema Documental, Título Tres, Artículo 6, 14 de diciembre de 2015. 
+    
+    //- p.mb-3 La planeación puede tener varias perspectivas pero, en síntesis, obedece al rumbo hacia el que se dirige algo, bien sea a nivel empresarial o incluso, en la vida personal; es el horizonte proyectado y, para ilustrar un poco mejor el concepto, podría pensarse en los siguientes cuestionamientos:<span class='lila text-black'> ¿qué se quiere? ¿Quiénes somos? ¿Para dónde vamos?</span> La planeación impulsa para optimizar recursos, prever situaciones, reducir costos e incrementar la productividad, a partir de la concentración y canalización de esfuerzos por un mismo fin, además de ser un escenario base para una posterior evaluación y retroalimentación del proceso y de los logros obtenidos.
     p.mb-5 Para profundizar la normativa vigente, lo invitamos a revisar:
     .row.justify-content-center.mb-5
       .col-md-6.col-lg-6
@@ -54,7 +68,7 @@
 
     .row.justify-content-center.mb-5
       .col-md-6.col-lg-6
-        h3.mb-5.text-center Documentos Contables
+        h3.mb-5.text-center Internos
         p.mb-5.text-center Son propios de manejo y uso de la organización y le permiten llevar un control interno; son utilizados de manera frecuente.
       .col-md-6.col-lg-6
 
@@ -82,7 +96,7 @@
 
     .row.justify-content-center.mb-5
       .col-md-6.col-lg-6
-        h3.mb-5.text-center Documentos Contables
+        h3.mb-5.text-center Externos
         p.mb-5.text-center Son propios de manejo y uso de la organización y le permiten llevar un control interno; son utilizados de manera frecuente.
       .col-md-6.col-lg-6
 
@@ -118,7 +132,7 @@
       li 
         i.fas.fa-square
         | 
-        h3.text-black Documentos internos y externos
+        h3.text-black Documentos extra contables y títulos valores
 
     p.mb-3 Los documentos extracontables generan una ganancia o utilidad de manera previa a la transacción comercial. No causan registro en la contabilidad y son meramente informativos.
 
@@ -162,25 +176,30 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-5.svg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            ul.lista-ul--color.nar
-              li 
-                i.fas.fa-check
-                | Identificación o Nit.
-              li 
-                i.fas.fa-check
-                | Fecha de expedición.
-              li 
-                i.fas.fa-check
-                | Fecha de vencimiento.
-              li 
-                i.fas.fa-check
-                | Tipo de documento y consecutivo.
-              li 
-                i.fas.fa-check
-                | Descripción detallada del tipo de transacción.
-              li 
-                i.fas.fa-check
-                | Valor en letras y números.
+            p.mb-5 Nombre/razón social del comprador y del vendedor.
+            br
+            br
+            
+            p
+              ul.lista-ul--color.nar.mt-5
+                li 
+                  i.fas.fa-check
+                  | Identificación o Nit.
+                li 
+                  i.fas.fa-check
+                  | Fecha de expedición.
+                li 
+                  i.fas.fa-check
+                  | Fecha de vencimiento.
+                li 
+                  i.fas.fa-check
+                  | Tipo de documento y consecutivo.
+                li 
+                  i.fas.fa-check
+                  | Descripción detallada del tipo de transacción.
+                li 
+                  i.fas.fa-check
+                  | Valor en letras y números.
 
 
 
@@ -381,14 +400,14 @@
       .col-lg-8
         TabsA.color-acento-contenido.grs
           .tarjeta.color-acento-botones.fnd-1.p-4(titulo="Títulos nominativos")
-            h4 Ficha del proceso
+            h4 Títulos nominativos
             p Se exige la inscripción de un tenedor, quien es el gozante de los derechos que este contempla, y la única persona que se reconocerá como tenedor legítimo.
           .tarjeta.color-acento-botones.fnd-1.p-4(titulo="Títulos a la orden")
             h4 Títulos a la orden
-            p En este tipo de título, a diferencia de los anteriores, la persona o entidad que lo porte es quien goza de los derechos que representa; la simple exhibición del título legitimará al portador y su tradición se producirá por la sola entrega
+            p Estos son expedidos a la orden de una persona específica o, en caso de transmitirse el documento, a favor de quien aparezca designado en este último registro.
           .tarjeta.color-acento-botones.fnd-1.p-4(titulo="Títulos al portador")
             h4 Títulos al portador
-            p En este tipo de título, a diferencia de los anteriores, la persona o entidad que lo porte es quien goza de los derechos que representa; la simple exhibición del título legitimará al portador y su tradición se producirá por la sola entrega           
+            p En este tipo de título, a diferencia de los anteriores, la persona o entidad que lo porte es quien goza de los derechos que representa; la simple exhibición del título legitimará al portador y su tradición se producirá por la sola entrega.          
 
     p.mb-5 De acuerdo con la normativa vigente, toda empresa puede optar por emitir cualquiera de los títulos que ella contempla y, por lo tanto, se han clasificado de la siguiente manera:   
 
@@ -397,7 +416,7 @@
         .bloque-texto-a.color-primario.p-4.p-md-5.mb-5.gr-1.c-v
           .row.m-0.align-items-center.justify-content-between
             .col-lg-6.mb-4.mb-lg-0
-              h2.mb-0 De acuerdo con la normativa vigente, toda empresa puede optar por emitir cualquiera de los títulos que ella contempla y, por lo tanto, se han clasificado de la siguiente manera:
+              h2.mb-0 Los títulos más empleados en las organizaciones son:
             .col-lg-6
               .bloque-texto-a__texto.p-4
                 ul.lista-ul--color.nar

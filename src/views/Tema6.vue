@@ -65,10 +65,10 @@
                 | Notas explicativas seleccionadas. 
 
 
-          .row(titulo="De propósito general")
+          .row(titulo="Estados financieros separados")
             p Corresponde a aquellos estados financieros elaborados por cada inversionista, sea este un controlador o matriz, un inversionista en una organización asociada o un partícipe en una compañía controlada conjuntamente, donde los inversionistas han contabilizado su inversión por el costo histórico y no por los cambios patrimoniales que la sociedad receptora ha experimentado.
 
-          .row(titulo="De propósito general")
+          .row(titulo="Estados financieros consolidados")
             p Son aquellos que se elaboran y se presentan en un grupo empresarial, como si fuera una sola entidad. Los estados financieros consolidados que se deben preparar, elaborar y presentar, son: 
             ul.lista-ul--color.nar  
               li 
@@ -95,7 +95,7 @@
         | 
         h3.text-black Herramientas TIC en procesos contables
 
-    p.mb-5 Gracias a la evolución tecnológica, tenemos acceso a múltiples herramientas que sirven para que la labor contable se manifieste completa y fidedigna; esto facilita que las organizaciones cuenten con información oportuna e inmediata, sea cual sea el momento en el que se requiera. 
+    p.mb-5 Gracias a la evolución tecnológica, tenemos acceso a múltiples herramientas que sirven para que la labor contable se manifieste completa y <em>fidedigna; </em>esto facilita que las organizaciones cuenten con información oportuna e inmediata, sea cual sea el momento en el que se requiera. 
     .row.justify-content-center.mb-5 
       .col-lg-8
         .cajon.color-acento-botones.p-4.mb-4.fnd-8

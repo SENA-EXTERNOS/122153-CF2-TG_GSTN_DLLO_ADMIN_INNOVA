@@ -12,7 +12,7 @@
     .row.justify-content-center
       .col-md-10.col-lg-8
         .titulo-sexto.color-acento-contenido
-          h5 Figura 2.
+          h5 Figura 1.
           span Etapas del proceso administrativo
         figure
             img(src='@/assets/curso/temas/tema3/img-1.svg')
@@ -29,7 +29,7 @@
             img(src='@/assets/curso/temas/tema3/img-2.png')
 
       .col-md-6.col-lg-8
-        p.mb-5 La administración como palabra, viene del latín ad, que indica dirección, tendencia, proximidad, contacto, y minister, subordinación u obediencia y, en su sentido más amplio y completo, significa cumplimiento de una tarea o función bajo la directriz o mando de otro. Sin embargo, en la historia, este concepto sufrió una transformación significativa, que trascendió el hacer por el interpretar los objetivos trazados por una organización y transformarlos en acción a través de la planeación, la organización, la dirección y el control, todo con el objetivo de alcanzar los propósitos de manera adecuada y asertiva. Es allí donde surgen los diferentes caminos que han tomado algunos autores para definir el concepto de administración y su impacto en los escenarios de las organizaciones.
+        p.mb-5 La administración como palabra, viene del latín <em>ad,</em> que indica dirección, tendencia, proximidad, contacto, y<em> minister</em>, subordinación u obediencia y, en su sentido más amplio y completo, significa cumplimiento de una tarea o función bajo la directriz o mando de otro. Sin embargo, en la historia, este concepto sufrió una transformación significativa, que trascendió el hacer por el interpretar los objetivos trazados por una organización y transformarlos en acción a través de la planeación, la organización, la dirección y el control, todo con el objetivo de alcanzar los propósitos de manera adecuada y asertiva. Es allí donde surgen los diferentes caminos que han tomado algunos autores para definir el concepto de administración y su impacto en los escenarios de las organizaciones.
 
     ul.lista-ul--color.mor
       li 
@@ -61,7 +61,7 @@
       li 
         i.fas.fa-square
         | 
-        h3.text-black Planeación
+        h3.text-black Organización
 
     p.mb-5 Una de las definiciones de organización es la del autor Sergio Hernández (2011), quien indica que es la “fase del proceso administrativo en la cual se aplican las técnicas administrativas para estructurar una empresa u organización social; se definen las funciones por áreas sustantivas, departamentos y puestos; se establece la autoridad en materia de toma decisiones y la responsabilidad de los miembros que ocupan dichas unidades, y se definen las líneas de comunicación formal que faciliten la comunicación y la cooperación de los equipos de trabajo, a fin de alcanzar los objetivos y la estrategia”. (p.271)
     p.mb-5 La organización permite optimizar tiempo y recursos, así como también el aumento de productividad, simplificando el trabajo y evitando los reprocesos y la duplicidad en responsabilidades o actividades. Las dos etapas fundamentales de la organización son:
@@ -81,7 +81,7 @@
       li 
         i.fas.fa-square
         | 
-        h3.text-black Planeación
+        h3.text-black Dirección
 
     p.mb-5 Cuando hablamos de dirección, hablamos de unos elementos asociados al liderazgo, a la motivación, a los equipos de trabajo y a la comunicación en torno a la ejecución de los planes, de acuerdo con la estructura organizacional.
     p.mb-5 Ahondemos en el significado de cada uno de ellos:
@@ -103,7 +103,7 @@
             figure
               img(src='@/assets/curso/temas/tema3/img-5.svg')
           
-        h3.text-center Contractuales    
+        h3.text-center Motivación    
         p La buena actitud de los trabajadores o empleados es fundamental para que realicen su trabajo con entusiasmo; por eso es importante que el líder genere ese estímulo permanente de confianza, desde lo individual, para impactar también colectivamente.
 
 
@@ -154,11 +154,11 @@
           ol.lista-ol--cuadro
         li 
           .lista-ol--cuadro__vineta
-            span 1
+            span 2
           | Concurrente o permanente: consiste en vigilar las operaciones en funcionamiento; cuando el control se aplica de manera permanente, la directiva puede corregir los problemas oportunamente, antes que se vuelvan irremediables y costosos.
         li 
           .lista-ol--cuadro__vineta
-            span 1
+            span 3
           | Correctivo o de retroalimentación: este control se realiza una vez que la actividad ha llegado a su fin. La desventaja de este tipo de control es que cuando se recibe la información, el daño ya está hecho. Los informes financieros son un claro ejemplo de este tipo de control.          
     Separador
     #t_3_2.titulo-segundo.color-acento-contenido
@@ -183,7 +183,13 @@
                 img.img-100(src='@/assets/curso/temas/tema3/img-10.svg')
             .col-lg-9
               p Archivar es el arte a través del cual se gestionan, se resguardan y se sitúan, a disposición de usuarios, los documentos de una organización, sin importar si son públicas o privadas; teniendo en cuenta unos principios y unas metodologías. 
+    ul.lista-ul--color.mor
+      li 
+        i.fas.fa-square
+        | 
+        h3.text-black Clasificación documental           
 
+    p.mb-3 Este es el primer paso que debe tener presente la entidad para una adecuada organización y estructuración. Con la clasificación de documentos, se logra la identificación y el agrupamiento sistemático de documentos semejantes, con características comunes; por esto, es de vital importancia conocer la estructura orgánica de la empresa y los trámites que se adelantan en las diferentes áreas durante el ejercicio de sus funciones. 
     p.mb-3 La clasificación refleja la estructura orgánica de la empresa, de tal manera que las agrupaciones documentales resultan de las subdivisiones de la organización.
 
     p.mb-5 Las empresas pueden utilizar diferentes formas para clasificar los documentos numéricos y alfabéticos.
@@ -199,7 +205,7 @@
             p Consiste en la colocación de los documentos de forma consecutiva y de forma progresiva.
           .tarjeta.color-acento-botones.fnd-1.p-4(titulo="Cronológicos")
             p Consiste en situar un documento detrás del otro de forma secuencial, de acuerdo con la fecha en que se haya tramitado el documento, teniendo en cuenta que primero va el año, luego el mes y, por último, el día.
-
+    p.mb-5 <b>Alfabéticos.</b> Consiste en ordenar los documentos, utilizando las letras del alfabeto y pueden ser: 
     .row.m-0.align-items-center.justify-content-center.mb-5
       .col-lg-9
         TabsA.color-acento-contenido.grs

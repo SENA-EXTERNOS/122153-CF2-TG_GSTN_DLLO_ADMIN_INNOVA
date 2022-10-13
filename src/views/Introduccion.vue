@@ -11,7 +11,7 @@
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.bl-izq
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/img.jpg')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/portada/img-intro-.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         span.text-black.bb1 Apreciado aprendiz, bienvenido a este componente formativo,

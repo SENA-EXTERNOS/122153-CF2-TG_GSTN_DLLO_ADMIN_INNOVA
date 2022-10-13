@@ -21,7 +21,7 @@
     .row.justify-content-center 
       .col-lg-8
         .cajon.color-primario.p-4.mb-4.fnd-1
-          p Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.
+          p La mayoría de las personas consideran a la contabilidad como un escenario netamente técnico, en el que solamente profesionales de la contaduría pueden manejarla y comprenderla; concepto erróneo, porque realmente se podría decir que todos utilizamos constantemente la información contable; algunos en mayor o menor proporción que otros. En nuestra cotidianidad, por ejemplo, al realizar cuentas de las entradas y salidas de dinero, obtenidas durante un periodo determinado, se está llevando a cabo una contabilización.
 
     Separador
    
@@ -89,7 +89,7 @@
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-5.p-xl-5
-              h1 Contabilidad financiera
+              //-h1 Contabilidad financiera
               p Es una rama de la contabilidad en la que se describen tanto las obligaciones de la entidad o individuo, como los recursos financieros de los mismos y se crea esta rama bajo la figura de persona jurídica.
             .tarjeta-slide__img.b-img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-3-.png')})`}")
 
@@ -98,7 +98,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__img.b-img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-4-.png')})`}")
             .tarjeta-slide__contenido.p-5.p-xl-5
-              h1 Contabilidad gerencial
+              //-h1 Contabilidad gerencial
               p Esta rama se enfoca más en la interpretación de la información contable, en aras de tomar decisiones propias del negocio, como metas y finalidades, buscando siempre maximizar sus recursos y generar una mayor rentabilidad.
 
       .col-lx-4.mb-4.col-md-8.col-lg-4
@@ -106,8 +106,8 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__img.b-img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-5-.png')})`}")
             .tarjeta-slide__contenido.p-5.p-xl-5
-              h1 Contabilidad tributaria
-              p Son aquellas herramientas que permiten plasmar, de manera anticipada, los recursos requeridos (financieros y no financieros) para el cumplimiento de las actividades; por consiguiente, de las estrategias y de los objetivos.
+              //-h1 Contabilidad tributaria
+              p Rama de la contabilidad cuyo enfoque se concentra en la planeación y organización de los deberes fiscales que tiene la empresa o individuo, con la finalidad que cumpla, a cabalidad, sus compromisos estatales y evite sanciones por omisión, o equivocaciones en impuestos a su cargo.
 
     p.mb-5 En algún momento, todos somos usuarios de la información contable y, por lo general, podemos actuar como los tipos de usuarios que se observan a continuación:
 
@@ -208,7 +208,7 @@
     SlyderA.fnd-3.fl-a.mb-5(tipo="b")
       .row.m-3
         .col-md-8.mb-4.mb-md-0
-          h3 Formalización de empresa
+          h3 Identificación de la empresa
           p Toda organización debe contar con un nombre comercial que le permita identificarse; puede ser escogido y será de uso exclusivo durante la permanencia del ente económico. No podrá incluir nombres que afecten la moral o lleven a la confusión y, así mismo, puede tener varios nombres comerciales, pero solamente una razón social, la cual tendrá una duración de diez años contados a partir de la fecha de su registro, renovables por períodos iguales (Artículos 134 y 196 de la decisión 486 de 2000 de la Comisión de la Comunidad Andina). 
           p Para evitar que dos o más empresas puedan hacer uso de un mismo nombre, las cámaras de comercio ofrecen el servicio de control de homonimia, verificación que debe realizarse, previamente, para consultar la disponibilidad del nombre seleccionado. 
 
@@ -486,7 +486,9 @@
               figure.mb-5
                 img(src='@/assets/curso/temas/tema1/img-21-.svg')
           .col-lg-8       
-            AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul fnd-5")
+            h3 Introducción
+            p.mb-5 Esta información contable se realiza a partir de registros y transacciones capturadas en el ejercicio de la actividad económica de la empresa; entre estas características encontramos:
+            AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul fnd-5")          
               .row(titulo="Relevancia")
                 p Hace referencia a aquella que logra influir en las decisiones tomadas por los usuarios, también conocida como materialidad o importancia relativa, en donde se le da el reconocimiento o no, a un hecho económico.
               .row(titulo="Representación fiel")

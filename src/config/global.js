@@ -42,7 +42,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Aspectos generales de la contabilidad',
         desarrolloContenidos: true,
         subMenu: [
           {
