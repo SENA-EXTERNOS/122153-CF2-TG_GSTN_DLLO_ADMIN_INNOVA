@@ -8,7 +8,7 @@
           .col-lg-8   
             .titulo-sexto.color-acento-botones
               h3 Gestión del desarrollo administrativo e innovación
-              p Síntesis: Normatividad, formalización de empresa, documentos e informes contables
+              p.mb-0 Síntesis: Normatividad, formalización de empresa, documentos e informes contables
           .col-lg-4
               figure.mb-5
                 img.img-86(src='@/assets/curso/temas/logo-sena.svg')              
