@@ -100,7 +100,7 @@
       .col-lg-8
         .cajon.color-acento-botones.p-4.mb-4.fnd-8
           p En la actualidad, las empresas apoyan el registro de sus operaciones contables en sistemas contables que, en muchos casos, son actualizados en línea, siendo algo muy conveniente para que cualquier usuario de la información contable, pueda acceder a ella sin importar el lugar donde se encuentre.
-    p.mb-5 Conozca sobre el software contable como herramienta de gestión y organización del registro de los hechos económicos de la empresa.      
+    p.mb-5 Conozca sobre el <em>software</em> contable como herramienta de gestión y organización del registro de los hechos económicos de la empresa.      
 
     SlyderB.mb-5.fls(:datos="datosSlyder")      
 

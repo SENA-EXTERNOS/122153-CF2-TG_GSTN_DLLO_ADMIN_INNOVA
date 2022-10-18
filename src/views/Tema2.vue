@@ -394,19 +394,19 @@
     p.mb-5 De acuerdo con la normativa vigente, toda empresa puede optar por emitir cualquiera de los títulos que ella contempla y, por lo tanto, se han clasificado de la siguiente manera:
 
     .row.m-0.align-items-center.justify-content-between.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-3.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema2/img-8.svg')
-      .col-lg-8
+      .col-lg-9
         TabsA.color-acento-contenido.grs
           .tarjeta.color-acento-botones.fnd-1.p-4(titulo="Títulos nominativos")
-            h4 Títulos nominativos
+
             p Se exige la inscripción de un tenedor, quien es el gozante de los derechos que este contempla, y la única persona que se reconocerá como tenedor legítimo.
           .tarjeta.color-acento-botones.fnd-1.p-4(titulo="Títulos a la orden")
-            h4 Títulos a la orden
+
             p Estos son expedidos a la orden de una persona específica o, en caso de transmitirse el documento, a favor de quien aparezca designado en este último registro.
           .tarjeta.color-acento-botones.fnd-1.p-4(titulo="Títulos al portador")
-            h4 Títulos al portador
+
             p En este tipo de título, a diferencia de los anteriores, la persona o entidad que lo porte es quien goza de los derechos que representa; la simple exhibición del título legitimará al portador y su tradición se producirá por la sola entrega.          
 
     p.mb-5 De acuerdo con la normativa vigente, toda empresa puede optar por emitir cualquiera de los títulos que ella contempla y, por lo tanto, se han clasificado de la siguiente manera:   

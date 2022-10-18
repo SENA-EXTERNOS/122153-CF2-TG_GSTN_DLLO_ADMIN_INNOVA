@@ -486,7 +486,7 @@
               figure.mb-5
                 img(src='@/assets/curso/temas/tema1/img-21-.svg')
           .col-lg-8       
-            h3 Introducción
+      
             p.mb-5 Esta información contable se realiza a partir de registros y transacciones capturadas en el ejercicio de la actividad económica de la empresa; entre estas características encontramos:
             AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul fnd-5")          
               .row(titulo="Relevancia")
