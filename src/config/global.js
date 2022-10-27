@@ -135,6 +135,12 @@ export default {
         titulo: 'Informes contables y estados financieros',
         desarrolloContenidos: true,
       },
+      {
+        nombreRuta: 'sintesis',
+        icono: 'fas fa-sitemap',
+        titulo: 'Síntesis',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {
