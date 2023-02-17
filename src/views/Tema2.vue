@@ -67,10 +67,10 @@
 
 
     .row.justify-content-center.mb-5
-      .col-md-6.col-lg-6
+      .col-md-5.col-lg-5
         h3.mb-5.text-center Internos
         p.mb-5.text-center Son propios de manejo y uso de la organización y le permiten llevar un control interno; son utilizados de manera frecuente.
-      .col-md-6.col-lg-6
+      .col-md-7.col-lg-7
 
         ImagenInfografica.color-primario.nar.mb-5
           template(v-slot:imagen)
@@ -95,10 +95,10 @@
 
 
     .row.justify-content-center.mb-5
-      .col-md-6.col-lg-6
+      .col-md-5.col-lg-5
         h3.mb-5.text-center Externos
         p.mb-5.text-center Son propios de manejo y uso de la organización y le permiten llevar un control interno; son utilizados de manera frecuente.
-      .col-md-6.col-lg-6
+      .col-md-7.col-lg-7
 
         ImagenInfografica.color-primario.nar.mb-5
           template(v-slot:imagen)
@@ -134,7 +134,7 @@
         | 
         h3.text-black Documentos extra contables y títulos valores
 
-    p.mb-3 Los documentos extracontables generan una ganancia o utilidad de manera previa a la transacción comercial. No causan registro en la contabilidad y son meramente informativos.
+    p.mb-3 Los documentos extracontables, generan una ganancia o utilidad de manera previa a la transacción comercial. No causan registro en la contabilidad y son meramente informativos. 
 
     p.mb-5 Algunos documentos no contables son:
 
@@ -144,22 +144,22 @@
           figure.mb-5
             img.img-100(src='@/assets/curso/temas/tema2/img-4.svg')
 
-          h3.text-center Cotización
-          p.text-center Documento usado por las organizaciones para dar información de sus productos y servicios, las características ofrecidas y aquellas que se consideren necesarias de suministrar al cliente.      
+          h3.text-center Cotización:
+          p.text-center Documento usado por las organizaciones para dar información de sus productos y servicios, las características ofrecidas y aquellas que se consideren necesarias de suministrar al cliente.    
       .col-lg-4.mb-4
         .tarjeta.tarjeta-avatar-slide.color-acento-contenido.p-4.h-100
           figure.mb-5
             img.img-100(src='@/assets/curso/temas/tema2/img-4.svg')
 
-          h3.text-center Pedido
+          h3.text-center Pedido:
           p.text-center Este documento se usa para poder registrar los encargos de bienes o servicios.
       .col-lg-4.mb-4
         .tarjeta.tarjeta-avatar-slide.color-acento-contenido.p-4.h-100
           figure.mb-5
             img.img-100(src='@/assets/curso/temas/tema2/img-4.svg')
 
-          h3.text-center Remisión 
-          p.text-center Documento soporte de la entrega de mercancías, en el que se indican las cantidades que han salido de forma física del inventario y han sido entregadas al cliente, pero no han sido facturadas.      
+          h3.text-center Remisión: 
+          p.text-center Documento soporte de la entrega de mercancías, en el que se indican las cantidades que han salido de forma física del inventario y han sido entregadas al cliente, pero no han sido facturadas.     
 
     ul.lista-ul--color.mor.mb-3
       li 
@@ -224,7 +224,8 @@
         .bloque-texto-e.p-4
           .bloque-texto-e__texto
             i.fas.fa-quote-left
-            h2.text-regular Los libros podrán ser de hojas removibles o formarse por series continuas de tarjetas, siempre que unas y otras estén numeradas, puedan conservarse archivadas en orden y aparezcan autenticadas conforme con Ia reglamentación del gobierno. Los libros podrán llevarse en archivos electrónicos, que garanticen, de forma ordenada, Ia inalterabilidad, Ia integridad y seguridad de Ia información, así como su conservación. El registro de los libros electrónicos se adelantará, de acuerdo con Ia reglamentación que expida el Gobierno Nacional.
+            h2.text-regular Los libros podrán ser de hojas removibles o formarse por series continuas de tarjetas, siempre que unas y otras estén numeradas, puedan conservarse archivadas en orden y aparezcan autenticadas conforme con Ia reglamentación del gobierno. Los libros podrán llevarse en archivos electrónicos, que garanticen, de forma ordenada, Ia inalterabilidad, Ia integridad y seguridad de Ia información, así como su conservación. El registro de los libros electrónicos se adelantará, de acuerdo con Ia reglamentación que expida el Gobierno Nacional. 
+
 
             i.fas.fa-quote-right
           .row.align-items-end
@@ -249,14 +250,14 @@
           .tarjeta.color-acento-botones.fnd-2
             br
             .p-4.px-5
-              p.text-black.text-center Libro de registro de accionistas para sociedades por acciones. 
+              p.text-black.text-center Libro de registro de accionistas para sociedades por acciones.  
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img.mb-5.img-100(src='@/assets/curso/temas/tema2/img-7.svg' alt='AvatarTop')
           .tarjeta.color-acento-botones.fnd-2
             br
             .p-4.px-5
-              p.text-black.text-center Libro de registro de socios para sociedades de responsabilidad limitada y asimiladas.                 
+              p.text-black.text-center Libro de registro de socios para sociedades de responsabilidad limitada y asimiladas.               
 
     ul.lista-ul--color.mor.mb-3
       li 
@@ -276,7 +277,7 @@
         .cajon.color-primario.p-4.mb-4.fnd-1
           p “El comerciante conservará archivados y ordenados los comprobantes de los asientos de sus libros de contabilidad, de manera que en cualquier momento se facilite verificar su exactitud”.  (Artículo 55 Código de Comercio).
 
-    p.mb-5 En conformidad con lo establecido por el Artículo 29 de La ley 2195 de 2022, se consideran prohibiciones las siguientes:       
+    p.mb-5 En conformidad con lo establecido por el Artículo 29 de La ley 2195 de 2022, se consideran prohibiciones las siguientes:   
 
     .row.justify-content-center
       .col-lg-8
@@ -305,7 +306,7 @@
               figure.mb-3
                 img.img-50(src='@/assets/curso/temas/tema2/img-7-.svg')
             .col-md-10.mb-4.mb-md-0
-              p.text-left Borrar o tachar en todo o en parte, los asientos.
+              p.text-left Borrar o tachar en todo, o en parte, los asientos.
 
           .row
             .col-md-10.mb-4.mb-md-0
@@ -318,7 +319,7 @@
               figure.mb-3
                 img.img-50(src='@/assets/curso/temas/tema2/img-7-.svg')          
             .col-md-10.mb-4.mb-md-0
-              p.text-left Crear cuentas en los libros contables, que no cuenten con los comprobantes y soportes correspondientes.
+              p.text-left Crear cuentas en los libros contables, que no enumeren los comprobantes y soportes correspondientes.
 
           .row
             .col-md-10.mb-4.mb-md-0
@@ -331,11 +332,11 @@
               figure.mb-3
                 img.img-50(src='@/assets/curso/temas/tema2/img-7-.svg')          
             .col-md-10.mb-4.mb-md-0
-              p.text-left Llevar doble contabilidad, es decir, llevar dos o más libros iguales en los que se registre, en forma diferente, las mismas operaciones, o cuando se tengan distintos comprobantes sobre los mismos actos.
+              p.text-left Llevar doble contabilidad, es decir, llevar dos o más libros iguales, en los que se registren, de forma diferente, las mismas operaciones, o cuando se tengan distintos comprobantes sobre los mismos actos.
 
           .row
             .col-md-10.mb-3.mb-md-0
-              p Registrar en los libros contables operaciones de manera inadecuada, gastos inexistentes, o pasivos sin la identificación correcta.
+              p Registrar en los libros contables, operaciones de manera inadecuada, gastos inexistentes, o pasivos sin la identificación correcta.
             .col-md-2
               figure
                 img.img-50(src='@/assets/curso/temas/tema2/img-7-.svg')
@@ -399,13 +400,13 @@
           img(src='@/assets/curso/temas/tema2/img-8.svg')
       .col-lg-9
         TabsA.color-acento-contenido.grs
-          .tarjeta.color-acento-botones.fnd-1.p-4(titulo="Títulos nominativos")
+          .tarjeta.color-acento-botones.fnd-1.p-4(titulo="Títulos <br>nominativos")
 
             p Se exige la inscripción de un tenedor, quien es el gozante de los derechos que este contempla, y la única persona que se reconocerá como tenedor legítimo.
-          .tarjeta.color-acento-botones.fnd-1.p-4(titulo="Títulos a la orden")
+          .tarjeta.color-acento-botones.fnd-1.p-4(titulo="Títulos<br> a la orden")
 
             p Estos son expedidos a la orden de una persona específica o, en caso de transmitirse el documento, a favor de quien aparezca designado en este último registro.
-          .tarjeta.color-acento-botones.fnd-1.p-4(titulo="Títulos al portador")
+          .tarjeta.color-acento-botones.fnd-1.p-4(titulo="Títulos<br> al portador")
 
             p En este tipo de título, a diferencia de los anteriores, la persona o entidad que lo porte es quien goza de los derechos que representa; la simple exhibición del título legitimará al portador y su tradición se producirá por la sola entrega.          
 

@@ -18,7 +18,7 @@
         p.mb-3 Un estado financiero es una declaración de lo que se cree que es cierto, expresado en términos de una unidad monetaria; por ejemplo, en pesos. Cuando los administradores preparan estados financieros, están describiendo, en términos financieros, ciertos atributos de las empresas que están representando, de una manera razonable.
         p.mb-5 El tiempo es un factor importante al preparar y entender los estados financieros de una empresa. Los estados podrían cubrir un periodo tan corto como una semana, o tan largo como un año.
     
-    p.mb-5 En las NIIF, dependiendo de las características e información que ofrecen los reportes financieros, se clasifican en:
+    p.mb-4 En las NIIF, dependiendo de las características e información que ofrecen los reportes financieros, se clasifican en:
 
     .row.justify-content-center 
       .col-lg-12

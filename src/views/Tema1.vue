@@ -80,7 +80,7 @@
         | 
         h3.text-black Tipos de información contable
 
-    p.mb-5 Desde la perspectiva del usuario de la contabilidad, se puede tener una necesidad específica, y otros usuarios pueden requerir de otro tipo de necesidades.
+    p Desde la perspectiva del usuario de la contabilidad, se puede tener una necesidad específica, y otros usuarios pueden requerir de otro tipo de necesidades.
     p.mb-5 Existen muchos tipos de información contable pero, en este apartado, se mencionan los principales.
 
     .row.mb-5.justify-content-center 
@@ -295,7 +295,7 @@
                     | Concepto ambiental.
                   li 
                     i.fas.fa-check
-                    | Certificado de Sayco & Acinpro
+                    | Certificado de Sayco & Acinpro.
 
 
             .col-lg-4.mb-4.mb-lg-0
@@ -315,8 +315,9 @@
             figure
               img(src='@/assets/curso/temas/tema1/img-14.svg')
           
-        h2.text-center Contractuales    
+        h2.text-center Contractuales:    
         p Para efectos de contratar personal en la organización y la relación laboral.
+
         ul.lista-ul--color.nar
           li 
             i.fas.fa-check
@@ -337,8 +338,9 @@
             figure
               img(src='@/assets/curso/temas/tema1/img-15.svg')
           
-        h2.text-center Seguridad en el trabajo
+        h2.text-center Seguridad en el trabajo:
         p Para efectos de convivencia, seguridad y salud en el trabajo.
+
         ul.lista-ul--color.nar
           li 
             i.fas.fa-check

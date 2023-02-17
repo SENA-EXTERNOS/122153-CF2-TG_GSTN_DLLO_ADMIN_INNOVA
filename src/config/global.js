@@ -334,7 +334,7 @@ export default {
     {
       tema: 'La información contable',
       referencia:
-        'IFRS Foundation. (s.f.). Norma Internacional de Contabilidad 8. Políticas Contables, Cambios en las Estimaciones Contables y Errores. https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534369239-2962',
+        'IFRS Foundation. (s.f.). <i>Norma Internacional de Contabilidad 8. Políticas Contables, Cambios en las Estimaciones Contables y Errores.</i>',
       tipo: 'PDF',
       link:
         'https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534369239-2962',
@@ -342,7 +342,7 @@ export default {
     {
       tema: 'Documentos contables',
       referencia:
-        'DIAN. (s.f.). Documento soporte en adquisicioens efectuadas a sujetos no obligados a expedir factura de venta o documento equivalente. https://www.dian.gov.co/impuestos/Documents/Documento_soporte_en_adquisiciones_efectuadas.pdf',
+        'DIAN. (s.f.). <i>Documento soporte en adquisicioens efectuadas a sujetos no obligados a expedir factura de venta o documento equivalente. </i>',
       tipo: 'PDF',
       link:
         'https://www.dian.gov.co/impuestos/Documents/Documento_soporte_en_adquisiciones_efectuadas.pdf',
@@ -350,7 +350,7 @@ export default {
     {
       tema: 'Documentos contables',
       referencia:
-        'Resolución 0167 de 2021. (DIAN). Por la cual se implementa y desarrolla en el sistema de facturación electrónica la funcionalidad del documento soporte en adquisiciones efectuadas a sujetos no obligados a expedir factura de venta o documento equivalente, para su transmisión electrónica y se expide el anexo técnico del documento. Diciembre 30 de 2021. https://www.dian.gov.co/normatividad/Normatividad/Resoluci%C3%B3n%20000167%20de%2030-12-2021.pdf',
+        'Resolución 0167 de 2021. (DIAN). Por la cual se implementa y desarrolla en el sistema de facturación electrónica la funcionalidad del documento soporte en adquisiciones efectuadas a sujetos no obligados a expedir factura de venta o documento equivalente, para su transmisión electrónica y se expide el anexo técnico del documento. Diciembre 30 de 2021.',
       tipo: 'PDF',
       link:
         'https://www.dian.gov.co/normatividad/Normatividad/Resoluci%C3%B3n%20000167%20de%2030-12-2021.pdf',
@@ -358,7 +358,7 @@ export default {
     {
       tema: 'Archivo y conservación de documentos',
       referencia:
-        'PROING – SA OFICIAL. (2017). Organización y archivo de documentos – Gestión documental (video). YouTube. https://www.youtube.com/watch?v=DGRZsfzGE9Y',
+        'PROING – SA OFICIAL. (2017). Organización y archivo de documentos – Gestión documental (video). YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=DGRZsfzGE9Y',
     },

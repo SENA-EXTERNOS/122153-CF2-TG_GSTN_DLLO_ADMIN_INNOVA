@@ -12,8 +12,9 @@
     .row.justify-content-center
       .col-md-10.col-lg-8
         .titulo-sexto.color-acento-contenido
-          h5 Figura 1.
-          span Etapas del proceso administrativo
+          h5 Figura 1
+          p.mb-0
+            em Etapas del proceso administrativo
         figure
             img(src='@/assets/curso/temas/tema3/img-1.svg')
 
@@ -201,7 +202,7 @@
           img(src='@/assets/curso/temas/tema3/img-11.svg')
       .col-lg-9
         TabsA.color-acento-contenido.grs
-          .tarjeta.color-acento-botones.fnd-1.p-4(titulo="Simples u ordinales")
+          .tarjeta.color-acento-botones.fnd-1.p-4(titulo="Simples<br> u ordinales")
             p Consiste en la colocación de los documentos de forma consecutiva y de forma progresiva.
           .tarjeta.color-acento-botones.fnd-1.p-4(titulo="Cronológicos")
             p Consiste en situar un documento detrás del otro de forma secuencial, de acuerdo con la fecha en que se haya tramitado el documento, teniendo en cuenta que primero va el año, luego el mes y, por último, el día.
@@ -210,25 +211,26 @@
       .col-lg-9
         TabsA.color-acento-contenido.grs
           .tarjeta.color-acento-botones.fnd-1.p-4(titulo="Onomásticos")
-            p Son empleados para series documentales compuestas por expedientes que permanecen durante varios lapsos de tiempo abiertos. Ejemplo: expedientes clínicos.
-          .tarjeta.color-acento-botones.fnd-1.p-4(titulo="Toponímicos o geográficos")
-            p Se usan para ordenar la serie alfabética de acuerdo con los lugares. Ejemplo: Bucaramanga, Medellín etc.
+            p Son empleados para series documentales, compuestas por expedientes que permanecen durante varios lapsos abiertos. Ejemplo: expedientes clínicos.
+          .tarjeta.color-acento-botones.fnd-1.p-4(titulo="Toponímicos o <br>geográficos")
+            p Se usan para ordenar la serie alfabética, de acuerdo con los lugares. Ejemplo: Bucaramanga, Medellín, etc.
           .tarjeta.color-acento-botones.fnd-1.p-4(titulo="Temáticos")
-            p Se ordenan alfabéticamente por contenidos similares. Ejemplo actas, resoluciones.
+            p Se ordenan alfabéticamente por contenidos similares. Ejemplo: actas, resoluciones.
           .tarjeta.color-acento-botones.fnd-1.p-4(titulo="Mixtos")
-            p Se utilizan dos o más variables para su clasificación y pueden ser:
-                        
+            p Se utilizan dos o más variables para su clasificación y pueden ser:                        
             ol.lista-ul--color.nar
               li 
                 i.fas.fa-check
                 p.mb-0 
-                  b Alfanumérico: 
-                  | como su nombre lo detalla la serie se ordena con números y letras.Ejemplo: 078-Juan Cruz.
+                  b Alfanuméricos: 
+                  | la serie se ordena con números y letras.<br> Ejemplo: 078-Juan Cruz
+
               li 
                 i.fas.fa-check
                 p.mb-0 
-                  b Cronológicos: 
-                  | son empleados para series documentales que son numéricas y a la vez cronológicas. Ejemplo: Resolución 010 2022-07-07.
+                  b Cronológicos:
+                  | son empleados para series documentales que son numéricas y, a la vez, cronológicas.<br> Ejemplo: Resolución 010 2022-07-07.
+
 
       .col-lg-3.mb-4.mb-lg-0.p-5
         figure

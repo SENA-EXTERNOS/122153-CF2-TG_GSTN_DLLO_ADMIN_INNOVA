@@ -14,11 +14,11 @@
         :style="{'background-image': `url(${require('@/assets/curso/portada/img-intro-.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        span.text-black.bb1 Apreciado aprendiz, bienvenido a este componente formativo,
-        | donde aprenderá a interpretar las políticas financieras y contables, así como también a procesar los documentos generados por las actividades financieras; estudiará cómo se originan las operaciones en el sistema de información contable, todo esto basado en las políticas y la normativa de la organización.
+        p Apreciado aprendiz, bienvenido a este componente formativo, donde aprenderá a interpretar las políticas financieras y contables, así como también a procesar los documentos generados por las actividades financieras; estudiará cómo se originan las operaciones en el sistema de información contable, todo esto basado en las políticas y la normativa de la organización.
         br
         br
         p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
+
     br 
     br
 
