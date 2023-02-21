@@ -39,7 +39,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Tipos de impuestos
-                  p.text-small Para conocer estos impuestos, lo invitamos a leer el documento.
+                  p Para conocer estos impuestos, lo invitamos a leer el documento.
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Tipos de impuesto.pdf')" target="_blank")
                     span Descargar

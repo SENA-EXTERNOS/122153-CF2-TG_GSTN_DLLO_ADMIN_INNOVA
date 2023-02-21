@@ -188,7 +188,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Clasificación de las empresas.
-                  p.text-small Para ampliar la información, lo invitamos a ver el siguiente documento:      
+                  p Para ampliar la información, lo invitamos a ver el siguiente documento:      
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Clasificacion de las empresas.pdf')" target="_blank")
                     span Descargar

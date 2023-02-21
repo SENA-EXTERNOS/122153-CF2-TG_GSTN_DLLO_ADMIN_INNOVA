@@ -135,12 +135,6 @@ export default {
         titulo: 'Informes contables y estados financieros',
         desarrolloContenidos: true,
       },
-      {
-        nombreRuta: 'sintesis',
-        icono: 'fas fa-sitemap',
-        titulo: 'Síntesis',
-        desarrolloContenidos: true,
-      },
     ],
     subMenu: [
       {
@@ -358,7 +352,7 @@ export default {
     {
       tema: 'Archivo y conservación de documentos',
       referencia:
-        'PROING – SA OFICIAL. (2017). Organización y archivo de documentos – Gestión documental (video). YouTube.',
+        'PROING – SA OFICIAL. (2017). <i>Organización y archivo de documentos – Gestión documental</i> (video). YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=DGRZsfzGE9Y',
     },

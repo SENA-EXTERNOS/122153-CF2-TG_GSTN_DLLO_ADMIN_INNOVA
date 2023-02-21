@@ -229,7 +229,7 @@
                 i.fas.fa-check
                 p.mb-0 
                   b Cronológicos:
-                  | son empleados para series documentales que son numéricas y, a la vez, cronológicas.<br> Ejemplo: Resolución 010 2022-07-07.
+                  |  son empleados para series documentales que son numéricas y, a la vez, cronológicas.<br> Ejemplo: Resolución 010 2022-07-07.
 
 
       .col-lg-3.mb-4.mb-lg-0.p-5
