@@ -133,13 +133,13 @@
         .bloque-texto-e.p-4
           .bloque-texto-e__texto
             i.fas.fa-quote-left
-            h2.text-regular Para todos los efectos, se entiende por empresa, toda unidad de explotación económica, realizada por persona natural o jurídica, en actividades agropecuarias, industriales, comerciales o de servicios, en el área rural o urbana.
+            h5.text-regular Para todos los efectos, se entiende por empresa, toda unidad de explotación económica, realizada por persona natural o jurídica, en actividades agropecuarias, industriales, comerciales o de servicios, en el área rural o urbana.
 
             i.fas.fa-quote-right
           .row.align-items-end
             .col
               .bloque-texto-e__autor 
-                .h3.mb-0 De acuerdo con la Ley 590 del año 2000, Art. 2
+                h4.mb-0 De acuerdo con la Ley 590 del año 2000, Art. 2
                 
     ul.lista-ul--color.mor.mb-5
       li 
@@ -387,7 +387,7 @@
     .row.justify-content-center 
       .col-lg-8
         .cajon.color-primario.p-4.mb-4.fnd-1 
-          .row.justify-content-center.mb-5   
+          .row.justify-content-center
               .col-lg-4
                 figure
                   img.img-100(src='@/assets/curso/temas/tema1/img-17.svg')

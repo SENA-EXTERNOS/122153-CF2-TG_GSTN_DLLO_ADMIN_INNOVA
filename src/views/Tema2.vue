@@ -36,7 +36,6 @@
               .bloque-texto-e__autor 
                 p.text-black.mb-0 Anexo 6 del DUR 2420 de 2015 Normas sobre el sistema Documental, Título Tres, Artículo 6, 14 de diciembre de 2015. 
     
-    //- p.mb-3 La planeación puede tener varias perspectivas pero, en síntesis, obedece al rumbo hacia el que se dirige algo, bien sea a nivel empresarial o incluso, en la vida personal; es el horizonte proyectado y, para ilustrar un poco mejor el concepto, podría pensarse en los siguientes cuestionamientos:<span class='lila text-black'> ¿qué se quiere? ¿Quiénes somos? ¿Para dónde vamos?</span> La planeación impulsa para optimizar recursos, prever situaciones, reducir costos e incrementar la productividad, a partir de la concentración y canalización de esfuerzos por un mismo fin, además de ser un escenario base para una posterior evaluación y retroalimentación del proceso y de los logros obtenidos.
     p.mb-5 Para profundizar la normativa vigente, lo invitamos a revisar:
     .row.justify-content-center.mb-5
       .col-md-6.col-lg-6
@@ -224,14 +223,14 @@
         .bloque-texto-e.p-4
           .bloque-texto-e__texto
             i.fas.fa-quote-left
-            h2.text-regular Los libros podrán ser de hojas removibles o formarse por series continuas de tarjetas, siempre que unas y otras estén numeradas, puedan conservarse archivadas en orden y aparezcan autenticadas conforme con Ia reglamentación del gobierno. Los libros podrán llevarse en archivos electrónicos, que garanticen, de forma ordenada, Ia inalterabilidad, Ia integridad y seguridad de Ia información, así como su conservación. El registro de los libros electrónicos se adelantará, de acuerdo con Ia reglamentación que expida el Gobierno Nacional. 
+            h5.text-regular Los libros podrán ser de hojas removibles o formarse por series continuas de tarjetas, siempre que unas y otras estén numeradas, puedan conservarse archivadas en orden y aparezcan autenticadas conforme con Ia reglamentación del gobierno. Los libros podrán llevarse en archivos electrónicos, que garanticen, de forma ordenada, Ia inalterabilidad, Ia integridad y seguridad de Ia información, así como su conservación. El registro de los libros electrónicos se adelantará, de acuerdo con Ia reglamentación que expida el Gobierno Nacional. 
 
 
             i.fas.fa-quote-right
           .row.align-items-end
             .col
               .bloque-texto-e__autor 
-                .h3.mb-0 (Código de Comercio, Art 56)
+                h4.mb-0 (Código de Comercio, Art 56)
 
 
     p.mb-5 Para dar cumplimiento, las empresas deben registrar ante cámaras de comercio, por disposición del artículo 175 del Decreto Ley 019 de 2012:
@@ -423,22 +422,22 @@
                 ul.lista-ul--color.nar
                   li 
                     i.fas.fa-check
-                    | Letra de cambio
+                    | Letra de cambio.
                   li 
                     i.fas.fa-check
-                    | Pagaré
+                    | Pagaré.
                   li 
                     i.fas.fa-check
-                    | Cheque
+                    | Cheque.
                   li 
                     i.fas.fa-check
-                    | Factura cambiaria
+                    | Factura cambiaria.
                   li 
                     i.fas.fa-check
-                    | Bonos
+                    | Bonos.
                   li 
                     i.fas.fa-check
-                    | Acciones
+                    | Acciones.
 
 </template>
 
