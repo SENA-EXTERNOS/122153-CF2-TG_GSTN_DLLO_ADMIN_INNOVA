@@ -181,11 +181,6 @@ export default {
         'Decreto 2420 de 2015. (Presidencia de la República). Por medio de la cual se expide el Decreto Único Reglamentario de las Normas de Contabilidad, de Información Financiera y de Aseguramiento de la Información y se dictan otras disposiciones. Diciembre 14 de 2015.',
     },
     {
-      referencia: 'Economipedia. (s.f.). <em>Software de contabilidad.</em>',
-      link:
-        'https://economipedia.com/definiciones/software-de-contabilidad.html#:~:text=Un%20software%20de%20contabilidad%20es,una%20empresa%20o%20entidades%20similares.',
-    },
-    {
       referencia:
         'Hernández, S. J. (2011). <em>Introducción a la administración</em> (5.a ed., Vol. 1). McGraw-Hill Interamericana.',
     },
