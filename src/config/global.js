@@ -141,6 +141,7 @@ export default {
         icono: 'fas fa-sitemap',
         titulo: 'Síntesis',
         nombreRuta: 'sintesis',
+        desarrolloContenidos: true,
       },
       {
         nombreRuta: 'actividad',
@@ -331,7 +332,7 @@ export default {
     {
       tema: 'Documentos contables',
       referencia:
-        'DIAN. (s.f.). <i>Documento soporte en adquisicioens efectuadas a sujetos no obligados a expedir factura de venta o documento equivalente. </i>',
+        'DIAN. (s.f.). <i>Documento soporte de pago en adquisiciones efectuadas a sujetos no obligados a expedir factura de venta o documento equivalente</i>',
       tipo: 'PDF',
       link:
         'https://www.dian.gov.co/impuestos/Documents/Documento_soporte_en_adquisiciones_efectuadas.pdf',
