@@ -223,7 +223,7 @@
                 i.fas.fa-check
                 p.mb-0 
                   b Alfanuméricos: 
-                  | la serie se ordena con números y letras.<br> Ejemplo: 078-Juan Cruz
+                  | la serie se ordena con números y letras.<br> Ejemplo: 078-Juan Cruz.
 
               li 
                 i.fas.fa-check

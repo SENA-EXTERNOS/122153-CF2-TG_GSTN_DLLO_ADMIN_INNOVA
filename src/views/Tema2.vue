@@ -34,7 +34,7 @@
           .row.align-items-end
             .col
               .bloque-texto-e__autor 
-                p.text-black.mb-0 Anexo 6 del DUR 2420 de 2015 Normas sobre el sistema Documental, Título Tres, Artículo 6, 14 de diciembre de 2015. 
+                p.text-black.mb-0 Anexo 6 del DUR 2420 de 2015 Normas sobre el Sistema Documental, Título Tres, Artículo 6, 14 de diciembre de 2015. 
     
     p.mb-5 Para profundizar la normativa vigente, lo invitamos a revisar:
     .row.justify-content-center.mb-5
@@ -43,14 +43,14 @@
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p <b>Enlace web.</b> El anexo 6 del Decreto único reglamentario 2420.
+            p <b>Enlace web.</b> El anexo 6 del Decreto Único Reglamentario 2420.
 
       .col-md-6.col-lg-6
         a.anexo.mb-4.mb-lg-0(href="https://www.ctcp.gov.co/CMSPages/GetFile.aspx?guid=ccb355bb-d8f6-48d2-8d9d-d44e924a8aed" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p <b>Enlace web.</b> El concepto emitido por la junta central de contadores 2021-0409.
+            p <b>Enlace web.</b> El concepto emitido por la junta central de contadores.
 
     ul.lista-ul--color.mor.mb-3
       li 
@@ -114,7 +114,7 @@
  
           .tarjeta.color-secundario--borde.fnd-3.p-3.p-3(x="62.5%" y="13%" numero="+")
             .h5.mb-2 Extractos bancarios 
-            p Documentos expedidos por el banco, en donde se registra el resumen de las transacciones realizadas en la cuenta o cuentas de la empresa; el banco la remite en físico o en digital
+            p Documentos expedidos por el banco, en donde se registra el resumen de las transacciones realizadas en la cuenta o cuentas de la empresa; el banco la remite en físico o en digital.
           .tarjeta.color-secundario--borde.fnd-3.p-3.p-3(x="90%" y="13%" numero="+")
             .h5.mb-2 Notas contables
             p Cuando una organización ejecuta algún ajuste o corrección, realiza una nota contable que puede ser de débito (a favor de la empresa) o de crédito (a favor de un cliente o acreedor).
@@ -175,15 +175,14 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-5.svg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-5 Nombre/razón social del comprador y del vendedor.
-            br
-            br
-            
             p
-              ul.lista-ul--color.nar.mt-5
+              ul.lista-ul--color.nar
                 li 
                   i.fas.fa-check
-                  | Identificación o Nit.
+                  | Nombre/razón social del comprador y del vendedor.
+                li 
+                  i.fas.fa-check
+                  | Identificación o NIT.
                 li 
                   i.fas.fa-check
                   | Fecha de expedición.
@@ -214,7 +213,7 @@
 
       .col-md-6.col-lg-8
         p.mb-5 Según el Código de Comercio: “Todo comerciante conformará su contabilidad, libros, registros contables, inventarios y estados financieros en general, a las disposiciones de este Código y demás normas sobre la materia” (Código de Comercio, Art. 48).
-        p.mb-5 Los libros de comercio para los efectos legales, se entenderán como los que determine la ley como obligatorios y los auxiliares necesarios para el completo entendimiento de aquellos (Código de Comercio, Art 49).
+        p.mb-5 Los libros de comercio para los efectos legales, se entenderán como los que determine la ley como obligatorios y los auxiliares necesarios para el completo entendimiento de aquellos (Código de Comercio, Art. 49).
 
 
 
@@ -230,10 +229,10 @@
           .row.align-items-end
             .col
               .bloque-texto-e__autor 
-                h4.mb-0 (Código de Comercio, Art 56)
+                h4.mb-0 (Código de Comercio, Art. 56)
 
 
-    p.mb-5 Para dar cumplimiento, las empresas deben registrar ante cámaras de comercio, por disposición del artículo 175 del Decreto Ley 019 de 2012:
+    p.mb-5 Para dar cumplimiento, las empresas deben registrar ante cámaras de comercio, por disposición del Artículo 175 del Decreto Ley 019 de 2012:
     .row.justify-content-center.mb-5
 
       .col-md-6.col-lg.mb-5.mb-lg-0
@@ -276,7 +275,7 @@
         .cajon.color-primario.p-4.mb-4.fnd-1
           p “El comerciante conservará archivados y ordenados los comprobantes de los asientos de sus libros de contabilidad, de manera que en cualquier momento se facilite verificar su exactitud”.  (Artículo 55 Código de Comercio).
 
-    p.mb-5 En conformidad con lo establecido por el Artículo 29 de La ley 2195 de 2022, se consideran prohibiciones las siguientes:   
+    p.mb-5 En conformidad con lo establecido por el Artículo 29 de la Ley 2195 de 2022, se consideran prohibiciones las siguientes:   
 
     .row.justify-content-center
       .col-lg-8

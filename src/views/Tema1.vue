@@ -229,8 +229,8 @@
 
       .row.m-3
         .col-md-8.mb-4.mb-md-0
-          h3 Registro único empresarial y social RUES
-          p Administrado por las cámaras de comercio, implementado con la finalidad de disminuir los trámites necesarios para la formalización de las empresas, está regulado mediante el artículo 11 de la Ley 590 de 2000, el Decreto Ley 019 de 2012, la Circular Externa 003 de 2017, entre otras disposiciones normativas. Este documento está compuesto por: 
+          h3 Registro Único Empresarial y Social RUES
+          p Administrado por las cámaras de comercio, implementado con la finalidad de disminuir los trámites necesarios para la formalización de las empresas, está regulado mediante el Artículo 11 de la Ley 590 de 2000, el Decreto Ley 019 de 2012, la Circular Externa 003 de 2017, entre otras disposiciones normativas. Este documento está compuesto por: 
           ul.lista-ul--color.nar
             li 
               i.fas.fa-check
@@ -240,7 +240,7 @@
               |  Registro de proponentes.
             li 
               i.fas.fa-check
-              |  Registro de entidades sin ánimo de lucro – Esal.
+              |  Registro de entidades sin ánimo de lucro – ESAL.
             li 
               i.fas.fa-check
               |  Registro nacional público de vendedores de juegos de suerte y azar.
@@ -395,7 +395,7 @@
                 ul.lista-ul--color.nar
                   li 
                     i.fas.fa-check
-                    | Inscripción en el Rut.
+                    | Inscripción en el RUT.
                   li 
                     i.fas.fa-check
                     | Solicitud de facturación electrónica.
@@ -426,7 +426,7 @@
               .row(titulo="Decreto 2649 de 1993")
                 p Antes de la llegada de la normativa internacional, el régimen contable propio se regía por este decreto, del cual aún permanecen vigentes algunos artículos, incluyendo los principios de contabilidad generalmente aceptados.           
               .row(titulo="Decreto 2650 de 1993")
-                p En este decreto se encuentra el plan único de cuentas, se busca dar una uniformidad para el registro de transacciones de los comerciantes y aún permanece vigente.          
+                p En este decreto se encuentra el Plan Único de Cuentas, se busca dar una uniformidad para el registro de transacciones de los comerciantes y aún permanece vigente.          
               .row(titulo="Normas internacionales de información financiera NIIF - Ley 1314 de 2009")
                 p Compuesto de postulados, principios, limitaciones, conceptos, normas técnicas, interpretaciones y guías, con las cuales se realiza la intervención económica en busca de la homogenización de información con miras a la competitividad nacional e internacional.          
               .row(titulo="Decreto único reglamentario 2420 de 2015")

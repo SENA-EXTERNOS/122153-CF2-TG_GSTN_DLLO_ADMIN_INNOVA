@@ -273,7 +273,7 @@ export default {
     {
       termino: 'Nota débito',
       significado:
-        'comprobante que emiten las empresas, para cargar a la cuenta de los clientes, valores como intereses por financiación, por sobregiros, el gravamen a movimientos financieros (GMF), venta de chequeras, comisiones, y otros cobros',
+        'comprobante que emiten las empresas, para cargar a la cuenta de los clientes, valores como intereses por financiación, por sobregiros, el gravamen a movimientos financieros (GMF), venta de chequeras, comisiones, y otros cobros.',
     },
     {
       termino: 'Partida doble',
@@ -312,7 +312,7 @@ export default {
     {
       termino: 'Sujeto pasivo',
       significado:
-        'es aquél a quien se le atribuye la realización del hecho impositivo de la obligación tributaria.',
+        'es aquel a quien se le atribuye la realización del hecho impositivo de la obligación tributaria.',
     },
     {
       termino: 'Tarifa',
@@ -332,7 +332,7 @@ export default {
     {
       tema: 'Documentos contables',
       referencia:
-        'DIAN. (s.f.). <i>Documento soporte de pago en adquisiciones efectuadas a sujetos no obligados a expedir factura de venta o documento equivalente</i>',
+        'DIAN. (s.f.). <i>Documento soporte de pago en adquisiciones efectuadas a sujetos no obligados a expedir factura de venta o documento equivalente.</i>',
       tipo: 'PDF',
       link:
         'https://www.dian.gov.co/impuestos/Documents/Documento_soporte_en_adquisiciones_efectuadas.pdf',

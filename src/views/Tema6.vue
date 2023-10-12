@@ -95,7 +95,7 @@
         | 
         h3.text-black Herramientas TIC en procesos contables
 
-    p.mb-5 Gracias a la evolución tecnológica, tenemos acceso a múltiples herramientas que sirven para que la labor contable se manifieste completa y <em>fidedigna; </em>esto facilita que las organizaciones cuenten con información oportuna e inmediata, sea cual sea el momento en el que se requiera. 
+    p.mb-5 Gracias a la evolución tecnológica, tenemos acceso a múltiples herramientas que sirven para que la labor contable se manifieste completa y fidedigna; esto facilita que las organizaciones cuenten con información oportuna e inmediata, sea cual sea el momento en el que se requiera. 
     .row.justify-content-center.mb-5 
       .col-lg-8
         .cajon.color-acento-botones.p-4.mb-4.fnd-8
